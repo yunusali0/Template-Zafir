@@ -1,0 +1,189 @@
+h1, h2, h3, h4, h5, h6, a, span {
+  font-family: "Montserrat", sans-serif;
+  color: #262626; }
+
+#header .navbar-brand {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: lowercase; }
+#header .nav-item {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 28px 20px; }
+#header .nav-link {
+  color: #1c1c1c;
+  -webkit-transition: all 0.7s;
+  -moz-transition: all 0.7s;
+  -ms-transition: all 0.7s;
+  -o-transition: all 0.7s;
+  transition: all 0.7s; }
+  #header .nav-link:hover {
+    color: #ed1c47; }
+#header .active .nav-link {
+  color: #ed1c47;
+  text-decoration: line-through; }
+
+.scrolled .navbar {
+  background-color: black;
+  padding: 0px; }
+.scrolled .navbar-brand {
+  color: white; }
+.scrolled .nav-link {
+  color: white !important; }
+.scrolled .active .nav-link {
+  color: #ed1c47 !important; }
+.scrolled .nav-item {
+  padding: 18px 20px !important; }
+
+#intro {
+  background-image: url("../img/banner_bg.jpg");
+  background-attachment: fixed;
+  background-position: 50% 0%;
+  background-size: cover;
+  display: flex;
+  align-items: center; }
+  #intro h1 {
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    font-size: 72px;
+    font-weight: 700; }
+  #intro span {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 25px; }
+  #intro a {
+    display: inline-block;
+    margin-top: 25px;
+    background-color: #ed1c47;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 12px 30px;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    transition: all 0.7s;
+    letter-spacing: 1px; }
+    #intro a:hover {
+      text-decoration: none;
+      background-color: #262626; }
+
+#about {
+  background-color: #f1f1f1;
+  padding: 80px 0; }
+  #about h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    color: #262626; }
+  #about p {
+    margin-bottom: 10px;
+    font-size: 13px; }
+  #about .skills {
+    list-style-type: none; }
+    #about .skills li {
+      position: relative;
+      padding: 20px 0px; }
+    #about .skills h5 {
+      font-weight: 500;
+      font-size: 11px;
+      color: #000;
+      border-top-left-radius: 3px;
+      border-bottom-left-radius: 3px;
+      text-transform: uppercase;
+      line-height: 1; }
+    #about .skills span {
+      font-size: 12px;
+      font-weight: 500;
+      height: 6px;
+      line-height: 1;
+      color: rgba(0, 0, 0, 0.9);
+      position: absolute;
+      right: 0px;
+      top: 2px; }
+    #about .skills .progress {
+      height: 6px; }
+    #about .skills .progress-bar {
+      background: #414141; }
+
+.page-title {
+  text-align: center;
+  margin-bottom: 50px; }
+  .page-title span {
+    color: #777;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 10px;
+    text-transform: capitalize; }
+  .page-title h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: capitalize; }
+
+#services {
+  padding: 80px 0px; }
+  #services .item {
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 1px 1px 15px #e6e6e6;
+    margin-bottom: 40px;
+    padding: 50px 20px;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    transition: all 0.7s; }
+    #services .item:hover {
+      box-shadow: 3px 3px 15px #c5c5c5;
+      transform: translate(0, -20px); }
+    #services .item i {
+      color: #ed1c47;
+      font-size: 36px; }
+    #services .item h3 {
+      color: #292929;
+      font-size: 18px;
+      font-weight: 600;
+      margin: 20px 0 15px;
+      text-transform: uppercase; }
+    #services .item p {
+      letter-spacing: 0px;
+      font-size: 13px; }
+
+#facts {
+  background-image: url("../img/facts_bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0px;
+  text-align: center;
+  margin-bottom: 200px; }
+  #facts i {
+    color: #ed1c47;
+    font-size: 36px;
+    display: inline-block;
+    margin-bottom: 20px; }
+  #facts h3 {
+    color: #fff;
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 1;
+    min-height: 30px;
+    margin-bottom: 5px; }
+  #facts h4 {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 5px;
+    text-transform: uppercase; }
+
+/*# sourceMappingURL=style.css.map */
